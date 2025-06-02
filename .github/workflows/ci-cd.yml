@@ -79,7 +79,7 @@ jobs:
     needs: [build]
     env:
       REGISTRY: ghcr.io
-      IMAGE_NAME: ${{ kushagra-g9.devsecops-using-GithubActions}}
+      IMAGE_NAME: ${{devsecops-using-GithubActions}}
     outputs:
       image_tag: ${{ steps.set_output.outputs.image_tag }}
     steps:
