@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: tic-tac-toe
-        image: ghcr.io/kushagra-g9/devsecops-using-githubactions:sha-1c98fd8622263139df3d015daee1fd29699a92ff
+        image: ghcr.io/kushagra-g9/devsecops-using-githubactions:sha-3219508fbd81d6a3f83ea080bcebbb8569ee71ed
         # Image will be automatically updated by CI/CD pipeline
         imagePullPolicy: Always
         ports:
